@@ -8,5 +8,4 @@ permalink: /cv/
 # CV
 CV for Dominic Teo 
 
-{% include cv.pdf %}
-
+<img src="/assets/img/cv.pdf" alt="Dominic's CV">
