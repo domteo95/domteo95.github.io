@@ -1,4 +1,5 @@
 ---
+theme: jekyll-theme-minimal
 layout: default
 title: "Areas in Singapore with the Best Restaurants"
 permalink: /singapore-best-restaurants/
