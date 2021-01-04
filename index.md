@@ -8,9 +8,10 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 <hr>
 
 # Project List<br>
+Click on titles of projects for more details!
 <hr>
 
-### [NBA Players iOS App](https://domteo95.github.io/nba-ios-app/)
+### [NBA Players iOS App](https://domteo95.github.io/nba-ios-app/) (2020)
 
 Created an iOS app that allows users to search for NBA players and return key statistics of selected players. Users are also able to save players into their 'Favorite Players' list or move players into an 'Injured Players' list. The app is meant for fans of the NBA who are curious about certain NBA players or for fantasy basketball players who need to be kept up to date on the stats of different NBA players.
 
@@ -18,7 +19,7 @@ Created an iOS app that allows users to search for NBA players and return key st
 
 <hr>
 
-### [Which area of Singapore has the best restaurants?](https://domteo95.github.io/singapore-best-restaurants/)
+### [Which area of Singapore has the best restaurants?](https://domteo95.github.io/singapore-best-restaurants/) (2020)
 
 Dividing Singapore into 55 planning areas or 332 subzones, I created an interactive visualization using the Bokeh library in Python where users can explore which areas have the best and most popular restaurants in Singapore. Restaurant data came from a TripAdvisor crawler that I wrote as well as Yelp data kindly provided by Sean Koh. 
 
