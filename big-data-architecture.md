@@ -1,14 +1,16 @@
 ---
 theme: jekyll-theme-minimal
-layout: default
-project: "true"
-repo: "https://github.com/domteo95/big-data-architecture-project"
+layout: post
 title: "Big Data Project - Summarized stats for players in FIFA game "
 permalink: /fifa-big-data/
 ---
 # Summarized Stats for Football Teams from FIFA 07 to FIFA 21
 
 Project for the graduate class - Big Data Architecture and Application (MPCS 53014)
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<p class="view"><a href="https://github.com/domteo95/big-data-architecture-project"><i class="fa fa-github" style="font-size:24px"></i>  View the Project on GitHub</a></p>
 
 The project's serving layer and speed layer were both deployed on the class' AWS load balanced server but which has been discontinued. However, an overview of both layers can be seen in the below GIF.
 
