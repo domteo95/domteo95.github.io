@@ -11,9 +11,10 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 
 # Project List
 
-- Big Data FIFA application
+- Big Data FIFA application 
 - NBA Players iOS App
 - Singapore Area with Best Restaurants - Visualization
+- Predicting Success of Android Mobile Apps 
 <br><br>
 Click on titles of projects for more details!
 
@@ -44,5 +45,11 @@ Dividing Singapore into 55 planning areas or 332 subzones, I created an interact
 <hr>
 
 ### [Predicting Success of Android Mobile Apps](https://domteo95.github.io/android-apps-success/) (2018)
+
+Attempting to establish what factors are important for app success on the Google Play Store so that we're able to predict if an Android mobile app will be successful. Applied 3 different classification modeling approaches - Logistic Regression, Decision Trees/Pruned Decision Trees and Random Forest models. Found that the random forest model was most successful and that the variables - Price, Rating, DaysSinceLastUpdated and Size are most important in prediction success. 
+
+<img src="/assets/img/anrdoid-app.jpg"> 
+
+<hr>
 
 
