@@ -13,8 +13,8 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 Click on titles of projects for more details!
 
 <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
-  <div class="dropdown-content">
+  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
+  <div id="myDropdown" class="dropdown-content">
     <a href="#">Link 1</a>
     <a href="#">Link 2</a>
     <a href="#">Link 3</a>
