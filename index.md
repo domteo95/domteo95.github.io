@@ -13,7 +13,7 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 Click on titles of projects for more details!
 
 <div class="dropdown">
-  <button class="dropbtn">Dropdown</button>
+  <button class="dropbtn">Project List</button>
   <div class="dropdown-content">
     <a href="#">Big Data FIFA Project</a>
     <a href="#">NBA Players iOS App</a>
