@@ -6,6 +6,6 @@ permalink: /cv/
 ---
 
 # CV
-CV for Dominic Teo 
+Last Updated: Jan 3rd 2021
 
-<embed src="/assets/img/cv.pdf" height="800" width="600">
+<embed src="/assets/img/cv.pdf" height="860" width="660">
