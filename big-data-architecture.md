@@ -109,11 +109,10 @@ I then created empty Optimized Row Columnar (ORC) tables which I then filled wit
 **Players Data:**
 The name of the ORC table on players' stats can be found in Hive and is called `dominicteo_proj_players`. I excluded the names of the football clubs that were not actually football clubs such as "" (empty string) and "111648".
 
-<br>
-
 **Country Data:**
 The name of the ORC table on countries' stats can be found in Hive and is called `dominicteo_proj_country`. I also perform some minor data cleaning on the original CSV that I curled from Kaggle to ensure that this table can be joined with the players table. This includes taking only the year from the date column and creating a `country_year` column by concating country and year.
 
+<br>
 
 ### Combining the Data in Spark 
 

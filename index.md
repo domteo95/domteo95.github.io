@@ -15,6 +15,8 @@ Click on titles of projects for more details!
 
 Deployed a serving and speed layer (based on Lambda Architecture) via AWS load balanced servers that allows users to search for their favorite Football (Soccer in the US) team and return the team's aggregated stats in different editions of the FIFA game. This allows fans to access if their favorite or most hated teams have improved or deproved over the years and in which categories the team has changed. 
 
+<img src="/assets/img/fifa.jpg">
+
 <hr>
 
 ### [NBA Players iOS App](https://domteo95.github.io/nba-ios-app/) (2020)
