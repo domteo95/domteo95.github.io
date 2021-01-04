@@ -28,29 +28,29 @@ Therefore, the main goal of this project is to identify the characteristics that
 Our final cleaned-dataset used in modelling has 13 predictor-variables (Android.Ver has been removed through EDA) in 8 dimensions and 6738 obervations in total.
 
 The 8 dimensions we used for our analysis are:
-1. Success: For our outcome variable, we transformed the ‘installs’ feature into a numeric value and then defined a new variable, success, as those apps having more than 500,000 app downloads. Apps are typically profitable with 500,000 downloads (Louis,2013).58% of the observations were classified as successful.
+- Success: For our outcome variable, we transformed the ‘installs’ feature into a numeric value and then defined a new variable, success, as those apps having more than 500,000 app downloads. Apps are typically profitable with 500,000 downloads (Louis,2013).58% of the observations were classified as successful.
 
 ![success](/assets/img/app-success/success-proportion.jpg)
 
-2. Rating: The rating factor is the overall user rating of the app. Higher rated apps have been shown tohave more downloads (Lanza,2012). Apps are rated from 1 to 5. 
+- Rating: The rating factor is the overall user rating of the app. Higher rated apps have been shown tohave more downloads (Lanza,2012). Apps are rated from 1 to 5. 
 
-3. Size: The “Size of App” factor captures various information on the app. Large apps might contain more features or better functionality. Thus, they might have better ratings. On the other hand, larger apps also imply a higher probability to contain a bug and therein might have lower ratings (Zimmermann,2007).
+- Size: The “Size of App” factor captures various information on the app. Large apps might contain more features or better functionality. Thus, they might have better ratings. On the other hand, larger apps also imply a higher probability to contain a bug and therein might have lower ratings (Zimmermann,2007).
 
-4. Category: For the category the app belongs to, we choose to recode the categories so that there were simply 4 categories: “Hobbies”, “Entertainment”, “Lifestyle”, and “Productivity”. We coded these 4 categories as 4 mutually exclusive and collectively exhaustive binary variables.
+- Category: For the category the app belongs to, we choose to recode the categories so that there were simply 4 categories: “Hobbies”, “Entertainment”, “Lifestyle”, and “Productivity”. We coded these 4 categories as 4 mutually exclusive and collectively exhaustive binary variables.
 
 ![categories](/assets/img/app-success/app-cat.jpg)
 
-5. Content Rating: For content rating we defined three age ratings: “Everyone”, “Mature 17+” and “Teen”. We recoded “Everyone 10+” and “Unrated” as “Everyone” and “Adults only 18+” as “Mature 17+” for simplicity. We coded these 3 ratings as 3 mutually exclusive and collectively exhaustive binary variables.
+- Content Rating: For content rating we defined three age ratings: “Everyone”, “Mature 17+” and “Teen”. We recoded “Everyone 10+” and “Unrated” as “Everyone” and “Adults only 18+” as “Mature 17+” for simplicity. We coded these 3 ratings as 3 mutually exclusive and collectively exhaustive binary variables.
 
 ![rating](/assets/img/app-success/rating.jpg)
 
-6. Price: For the price of an app, we coded the input at a numeric value. The vast majority of apps are priced as free or for a very small fee (<$1). However, there are some outliers that charge >$300. These outlier apps could be classified as “Staus Apps” whereby customers purchase them to highlight their wealth e.g. VIP BLACK. With our definition of success, free apps tends to be more successful than paid by large. We expect price to be a significant variable that is negatively correlated to success in our model.
+- Price: For the price of an app, we coded the input at a numeric value. The vast majority of apps are priced as free or for a very small fee (<$1). However, there are some outliers that charge >$300. These outlier apps could be classified as “Staus Apps” whereby customers purchase them to highlight their wealth e.g. VIP BLACK. With our definition of success, free apps tends to be more successful than paid by large. We expect price to be a significant variable that is negatively correlated to success in our model.
 
 ![paid](/assets/img/app-success/app-paid.jpg)
 
-7. Reviews: For the number of reviews, we simply coded this variable as a numeric value. There is a positive correlation between the number of reviews and the number of app downloads.
+- Reviews: For the number of reviews, we simply coded this variable as a numeric value. There is a positive correlation between the number of reviews and the number of app downloads.
 
-8. Days Since Last Updated: As the variable “Last Updated” could impact the number of installs via appearing in the ‘newly updated tab’(thus attracting more traffic as there are more appstore users through time) in the google app store, we expect this variable to be significant. As the original “Last Updated” variable is a character class, we transformed it into a date and created a new variable,
+- Days Since Last Updated: As the variable “Last Updated” could impact the number of installs via appearing in the ‘newly updated tab’(thus attracting more traffic as there are more appstore users through time) in the google app store, we expect this variable to be significant. As the original “Last Updated” variable is a character class, we transformed it into a date and created a new variable,
 “DaysSinceLastup”. This variable shows how many days ago the app was last updated (negative days) since 10/12/18, the day we downloaded the dataset.
 
 
