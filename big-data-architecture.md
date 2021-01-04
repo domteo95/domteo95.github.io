@@ -1,4 +1,9 @@
-
+---
+theme: jekyll-theme-minimal
+layout: default
+title: "Big Data Project - Summarized stats for players in FIFA game "
+permalink: /fifa-big-data/
+---
 # Summarized Stats for Football Teams from FIFA 07 to FIFA 21
 
 Project for the graduate class - Big Data Architecture and Application (MPCS 53014)
