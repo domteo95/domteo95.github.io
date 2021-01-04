@@ -1,6 +1,6 @@
 ---
 theme: jekyll-theme-minimal
-layout: default
+layout: post
 title: "Big Data Project - Summarized stats for players in FIFA game "
 permalink: /fifa-big-data/
 ---
@@ -113,7 +113,7 @@ The name of the ORC table on players' stats can be found in Hive and is called `
 The name of the ORC table on countries' stats can be found in Hive and is called `dominicteo_proj_country`. I also perform some minor data cleaning on the original CSV that I curled from Kaggle to ensure that this table can be joined with the players table. This includes taking only the year from the date column and creating a `country_year` column by concating country and year.
 
 <br>
-
+  
 ### Combining the Data in Spark 
 
 The file for the code used to create the combined dataset can be found in `sparksql-creating-combined-table.scala`.
