@@ -48,7 +48,7 @@ Dividing Singapore into 55 planning areas or 332 subzones, I created an interact
 
 Attempting to establish what factors are important for app success on the Google Play Store so that we're able to predict if an Android mobile app will be successful. Applied 3 different classification modeling approaches - Logistic Regression, Decision Trees/Pruned Decision Trees and Random Forest models. Found that the random forest model was most successful and that the variables - Price, Rating, DaysSinceLastUpdated and Size are most important in prediction success. 
 
-<img src="/assets/img/anrdoid-app.jpg"> 
+<img src="/assets/img/android-app.jpg"> 
 
 <hr>
 
