@@ -8,4 +8,4 @@ permalink: /cv/
 # CV
 CV for Dominic Teo 
 
-<embed src="/assets/img/cv.pdf" height="800px" width="250px">
+<embed src="/assets/img/cv.pdf" height="800" width="400">
