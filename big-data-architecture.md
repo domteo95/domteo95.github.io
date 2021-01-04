@@ -1,7 +1,8 @@
 ---
 theme: jekyll-theme-minimal
 layout: default
-project: true
+project: "true"
+repo: "https://github.com/domteo95/big-data-architecture-project"
 title: "Big Data Project - Summarized stats for players in FIFA game "
 permalink: /fifa-big-data/
 ---
