@@ -13,7 +13,7 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 
 Created an iOS app that allows users to search for NBA players and return key statistics of selected players. Users are also able to save players into their 'Favorite Players' list or move players into an 'Injured Players' list. The app is meant for fans of the NBA who are curious about certain NBA players or for fantasy basketball players who need to be kept up to date on the stats of different NBA players.
 
-<img src="/assets/img/nba.jpg"
+<img src="/assets/img/nba.jpg">
 
 <hr>
 
