@@ -15,9 +15,9 @@ Click on titles of projects for more details!
 <div class="dropdown">
   <button onclick="myFunction()" class="dropbtn">Dropdown</button>
   <div id="myDropdown" class="dropdown-content">
-    <a href="#">Link 1</a>
-    <a href="#">Link 2</a>
-    <a href="#">Link 3</a>
+    <a href="#">Big Data FIFA Project</a>
+    <a href="#">NBA Players iOS App</a>
+    <a href="#">Area with Singapore's Best Restaurants - Visualization</a>
   </div>
 </div>
 
