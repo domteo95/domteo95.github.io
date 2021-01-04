@@ -14,7 +14,9 @@ The project's serving layer and speed layer were both deployed on the class' AWS
   <img src="/assets/img/big-data/overview.gif"/>
 </p>
 
-An extensive list of all files containing code to create Hive, Hbase tables and their names as well, locations in my S3 bucket containing my web app deployment and HDFS location for jars used can be found  as well as commands to deploy the speed layer can be found in the **Appendix** located at the end of this ReadMe. The project can be found in my GitHub page [here](https://github.com/domteo95/big-data-architecture-project)
+An extensive list of all files containing code to create Hive, Hbase tables and their names as well, locations in my S3 bucket containing my web app deployment and HDFS location for jars used can be found  as well as commands to deploy the speed layer can be found in the **Appendix** located at the end of this ReadMe. <br>
+
+A more detailed run-through and files used in the project can be found in my GitHub page [here](https://github.com/domteo95/big-data-architecture-project)
 
 
 
@@ -90,27 +92,6 @@ The Jupyter Notebook used for the web-scrapping is titled `FIFA-teams-players-sc
 Ingested into HDFS through cURL and then unzipped into S3. The code used below can also be found in the file `curl-Kaggle-Fifa-country-data.sh`. Dataset can be found at **s3://dominicteo-mpcs53014/final_proj_country_curl/fifa_country.csv** 
 
 
-cURL from Kaggle
-```
-curl 'https://storage.googleapis.com/kaggle-data-sets/462919/1582017/bundle/archive.zip?X-Goog-Algorithm=GOOG4-RSA-SHA256&X-Goog-Credential=gcp-kaggle-com%40kaggle-161607.iam.gserviceaccount.com%2F20201123%2Fauto%2Fstorage%2Fgoog4_request&X-Goog-Date=20201123T190034Z&X-Goog-Expires=259199&X-Goog-SignedHeaders=host&X-Goog-Signature=75048db4cbb1ad95a482c155dcb88a37fcbef18836930277e0b149f0f0f2685d1988e4203867ddf5b8f14ba8d55a606af70a6b9316d874d88d66e2af32da5f25797a8fdc98eec4c817a4f811688522f18e8d8d62ffaf519c21cb4518802265f38c25dbbbcbfd7ab20c486fa22a4aebf42c750b206826ffd6dd14155f85dd694985bf6c8753b55285444b25dbf6c3cddf01f370152b1ac3bc5ca466699b15b1d30a1fed9fcbe59e74715191e2d2a1810717018440496d786e72f856bbf1ab3e3c300f130e9f0003eb93311eaa7d9a048cb81dcb4a2aa0bd80488d10f8a136b9fffa75911496539cf4a560195f543f821a000abd55e61e2356f981d07b7312c7d0'   -H 'authority: storage.googleapis.com'   
-  -H 'upgrade-insecure-requests: 1'   
-  -H 'user-agent: Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.198 Safari/537.36'   
-  -H 'accept: text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'   
-  -H 'sec-fetch-site: cross-site'   
-  -H 'sec-fetch-mode: navigate'   
-  -H 'sec-fetch-user: ?1'   
-  -H 'sec-fetch-dest: document'   
-  -H 'referer: https://www.kaggle.com/'   
-  -H 'accept-language: en-US,en;q=0.9,ko;q=0.8,fr;q=0.7,zh;q=0.6'   
-  --compressed | hdfs dfs -put - /tmp/dominicteo/final_proj_country/fifa_country.gz
-```
-
-Unzipped in S3
-```
-hdfs dfs -cat /tmp/dominicteo/final_proj_country/fifa_country.gz | gunzip | aws s3 cp - s3://dominicteo-mpcs53014/final_proj_country_curl/fifa_country.csv
-```
-
-
 
 ## Batch Layer
 
@@ -121,28 +102,6 @@ Two Hive tables were created, one for the countries rankings data from Kaggle wh
 
 These Hive tables were created using the OpenCSVSerde as shown below. For example, the Hive table for the countries ranking data was created using the code:
 
-```
-create external table dominicteo_proj_country_csv (
-id INT,
-rank INT,
-country_full STRING, 
-country_abrv STRING,
-total_points INT, 
-previous_points INT, 
-rank_change INT, 
-confederation STRING, 
-year STRING) 
-ROW FORMAT SERDE 'org.apache.hadoop.hive.serde2.OpenCSVSerde'
-WITH SERDEPROPERTIES (
-   "separatorChar" = ",",
-   "quoteChar"     = "\""
-)
-STORED AS TEXTFILE
-location 's3://dominicteo-mpcs53014/final_proj_country_curl/'
-TBLPROPERTIES ("skip.header.line.count"="1");
-
-```
-
 I then created empty Optimized Row Columnar (ORC) tables which I then filled with data from the Hive tables that we just created. I chose to use ORC tables as they're a  highly efficient way to store Hive data and it improves performance when Hive is reading, writing and processing data. A more extensive explanation on the numerous benefits of using a ORC table as opposed to the standard Hive table can be found [here](https://cwiki.apache.org/confluence/display/Hive/LanguageManual+ORC).
 
 <br>
@@ -150,25 +109,11 @@ I then created empty Optimized Row Columnar (ORC) tables which I then filled wit
 **Players Data:**
 The name of the ORC table on players' stats can be found in Hive and is called `dominicteo_proj_players`. I excluded the names of the football clubs that were not actually football clubs such as "" (empty string) and "111648".
 
-```
-insert overwrite table dominicteo_proj_players 
-select concat(nationality, year),
-index, id, name, age, nationality,
-overall,potential,club,value,wage,pac,sho,pas,dri,def,phy,fifa_version,year
-from dominicteo_proj_players_csv
-where club != "" and club != "111648" and club != "113974" and club != "114912";
-```
 <br>
 
 **Country Data:**
 The name of the ORC table on countries' stats can be found in Hive and is called `dominicteo_proj_country`. I also perform some minor data cleaning on the original CSV that I curled from Kaggle to ensure that this table can be joined with the players table. This includes taking only the year from the date column and creating a `country_year` column by concating country and year.
 
-```
-insert overwrite table dominicteo_proj_country 
-select concat(country_full, substr(year, 1, 4)),id ,rank, country_full, country_abrv, 
-total_points, previous_points, rank_change, confederation, int(substr(year, 1, 4)) 
-from dominicteo_proj_country_csv;
-```
 
 ### Combining the Data in Spark 
 
@@ -182,40 +127,6 @@ I then am able to join the players table with the country table using as both ha
 
 I now have a table where each row represents a player in a specific FIFA game with their game statistics as well as information on the country where that player is from. However, I am not finished as what I want is not info on players but rather the teams that they belong to hence I use the Spark SQL function to create this new table that groups the players by team and the year which I then save to Hive as a Hive Table titled `dominicteo_hive_proj_teams`. 
 
-```
-val team_year = spark.sql("""select concat(concat(club, "!"),year) as team_year, year, count(1) as num_players,
-sum(wage) as sum_wages_thousands, bround(sum(value),0) as sum_player_values_millions, 
-sum(overall) as overall_ratings, sum(potential) as potential_ratings, sum(pac) as pace_ratings, 
-sum(sho) as shooting_ratings, sum(pas) as passing_ratings, sum(dri) as dribbling_ratings, 
-sum(def) as defending_ratings, sum(phy) as physical_ratings, sum(case when confederation == "UEFA" then 1 else 0 end) as num_european_players, 
-sum(case when confederation == "AFC" then 1 else 0 end) as num_asian_players, sum(case when confederation == "CONMEBOL" then 1 else 0 end) as num_samerican_players, 
-sum(case when confederation == "CONCACAF" then 1 else 0 end) as num_namerican_players, sum(case when confederation == "CAF" then 1 else 0 end) as num_african_players, 
-sum(case when confederation == "OFC" then 1 else 0 end) as num_oceania_players, sum(rank) as country_ratings, concat("FIFA ", year+1) as fifa_version
-from players_country
-group by club, year""")
-
-team_year.write.mode(SaveMode.Overwrite).saveAsTable("dominicteo_hive_proj_teams")
-```
-
-This precomputes the following information for each football team represented in FIFA 07 to FIFA 21: 
-* Year 
-* Game Ver 
-* Number of Players in each Team (# in Team)
-* Total Overall Ratings (Ovr)
-* Total Potential Ratings (Pot)
-* Total Pace Ratings (Pac)
-* Total Shooting Ratings (Sho)
-* Total Dribbling Ratings (Dri)
-* Total Defending Ratings (Def)
-* Total Physical Ratings (Phy)
-* Total FIFA Country Rankings of each player's Nationality (Country Rank)
-* Total Wages (in $,000s)
-* Number of European Players (# Euro)
-* Number of Asian Players (# Asia)
-* Number of North American Players (# N.Ame)
-* Number of South American Players (# S.Ame)
-* Number of African Players (# Afr)
-* Number of Oceanic Players (# Oce). 
 
 Important to note that while I want to serve the average statistics in my serving layer, my batch layer computes the sum of all players' rating. This is to ensure that my table can be incremented with new data from my speed layer.
 
@@ -251,19 +162,6 @@ The results after choosing a team is created by the `fifa-stats-results.mustache
 
 Since my dataset does not have real-time ingestion, I instead use a web page and Kafka message queue to increment user submitted new player data. However, before that, I need to recreate the Hbase table dominicteo_hbase_proj_team to ensure that it's able to be incremented. The code for that can be found in the second half of the `hbase-hive-link-with-counter.hql` file. The difference lies in the SERDEPROPERTIES where in the mapping, at the end of each column that will be incremented, I added a #b. 
 
-```
-create table dominicteo_hbase_proj_team_v2 (
-  team_year string, year int, num_players bigint, wages_money bigint,
-  values_money bigint, overall_ratings bigint, potential_ratings bigint,
-  pace_ratings bigint, shooting_ratings bigint, passing_ratings bigint, dribbling_ratings bigint, 
-  defending_ratings bigint, physical_ratings bigint, num_european_players bigint, num_asian_players bigint,
-  num_samerican_players bigint, num_namerican_players bigint, num_african_players bigint, 
-  num_oceania_players bigint, country_ratings bigint, fifa_version string)
-  STORED BY 'org.apache.hadoop.hive.hbase.HBaseStorageHandler'
-WITH SERDEPROPERTIES ('hbase.columns.mapping' = ':key,stats:year,stats:num_players#b,stats:wages_money#b,stats:values_money#b,stats:overall_ratings#b,stats:potential_ratings#b,stats:pace_ratings#b,stats:shooting_ratings#b,stats:passing_ratings#b,stats:dribbling_ratings#b,stats:defending_ratings#b,stats:physical_ratings#b,stats:num_european_players#b,stats:num_asian_players#b,stats:num_samerican_players#b,stats:num_namerican_players#b,stats:num_african_players#b,stats:num_oceania_players#b,stats:country_ratings#b,stats:fifa_version')
-TBLPROPERTIES ('hbase.table.name' = 'dominicteo_hbase_proj_team_v2');
-```
-
 The name of this Hbase table is `dominicteo_hbase_proj_team_v2` and will be used in the serving layer instead of `dominicteo_hbase_proj_team`. 
 
 Users are able to add new players in the `submit-player.html` by filling in the categories shown below
@@ -274,26 +172,6 @@ The uber jar containing the scala files which defines the KafkaPlayerRecord clas
 
 The data streaming process is written in scala and the schema of submitted players data reflects what users have to fill in :
 
-```
-case class KafkaPlayerRecord(
-                              team_year: String,
-                              european: Boolean,
-                              african: Boolean,
-                              namerican: Boolean,
-                              samerican: Boolean,
-                              asian: Boolean,
-                              oceania: Boolean,
-                              potential: String,
-                              overall: String,
-                              pace:  String,
-                              defending:  String,
-                              shooting: String,
-                              passing: String,
-                              dribbling: String,
-                              physical: String,
-                              wages: String,
-                              country: String)
-```
 
 As seen below, each time users submit the form, it is recorded in my Kafka console where I'm using the topic `dominicteo-new-players-v3`. 
 
@@ -301,11 +179,6 @@ As seen below, each time users submit the form, it is recorded in my Kafka conso
 
 For each KafkaPlayerRecord entry to be incremented into our Hbase table `dominicteo_hbase_proj_team_v2`, we then have to go to our uber jar located at `dominicteo/final-proj-speed-layer/target` and run the following code. This code can also be found in our `spark-submit-speed-layer.txt` file. 
 
-```
-spark-submit --master local[2] --driver-java-options "-Dlog4j.configuration=file:///home/hadoop/ss.log4j.properties" 
---class StreamPlayers uber-final-proj-speed-layer-1.0-SNAPSHOT.jar 
-b-2.mpcs53014-kafka.fwx2ly.c4.kafka.us-east-2.amazonaws.com:9092,b-1.mpcs53014-kafka.fwx2ly.c4.kafka.us-east-2.amazonaws.com:9092 
-```
 
 
 
