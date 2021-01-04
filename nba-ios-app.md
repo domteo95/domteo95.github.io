@@ -21,7 +21,7 @@ I made this iOS app as a huge fan of basketball and the NBA as well as a past pa
 This app is made for casual NBA fans as well as a complementary app to current fantasy Basketball apps in allowing players to search for NBA players' key statistics and to keep track of certain players. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/overview.gif" width = "211" height = "454"/>
+  <img src="assets/img/nba-ios/overview.gif"/>
 </p>
 
 **Instructions on how to run the app:** download the entire `app` folder and open it in Xcode. Select the device (eg iPhone 11 Pro Max) and run it by clicking the play button and you'll be able to play around with the app on the simulator. 
