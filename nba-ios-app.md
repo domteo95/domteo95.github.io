@@ -13,6 +13,8 @@ permalink: /nba-ios-app/
 
 More detailed overview and run through of how to use this app and its various features can be found in this YouTube [video](https://www.youtube.com/watch?v=xEQHiAIzgE8). 
 
+The project can be downloaded [here](https://github.com/domteo95/ios-app-nba-players) in the **app** folder.
+
 
 ## Overview of Project
 
@@ -72,7 +74,7 @@ Using the search bar function found at the top of the screen in the 'NBA Players
 * There should be a scope right underneath the search bar where users can select one of the following options, "Both", "Player's Name" or "Team's Name". The default option is "Both". The search result will then change according to which option was selected.
 
 <p align="center">
-  <img src="/assets/img/nba-ios/search-player.png" style="width: 75%; height: 75%""/>
+  <img src="/assets/img/nba-ios/search-player.png" style="width: 75%; height: 75%"/>
 </p>
 
 *Search by Players' Name*
