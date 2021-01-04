@@ -11,11 +11,6 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 
 # Project List
 
-- Big Data FIFA application 
-- NBA Players iOS App
-- Singapore Area with Best Restaurants - Visualization
-- Predicting Success of Android Mobile Apps 
-<br><br>
 Click on titles of projects for more details!
 
 <hr>
@@ -24,6 +19,8 @@ Click on titles of projects for more details!
 
 Deployed a serving and speed layer (based on Lambda Architecture) via AWS load balanced servers that allows users to search for their favorite Football (Soccer in the US) team. Will return the team's aggregated stats in different editions of the FIFA game. This allows fans to assess if their favorite or most hated teams have improved or deproved over the years and in which categories the team has changed. 
 
+Tools utilized: AWS S3, EMR, Spark, Hbase, Hive, Hadoop, Kafka Message Queue, HTML and CSS.
+
 <img src="/assets/img/fifa.jpg">
 
 <hr>
@@ -31,6 +28,8 @@ Deployed a serving and speed layer (based on Lambda Architecture) via AWS load b
 ### [NBA Players iOS App](https://domteo95.github.io/nba-ios-app/) (2020)
 
 Created an iOS app that allows users to search for NBA players and return key statistics of selected players. Users are also able to save players into their 'Favorite Players' list or move players into an 'Injured Players' list. The app is meant for fans of the NBA who are curious about certain NBA players or for fantasy basketball players who need to be kept up to date on the stats of different NBA players.
+
+Tools utilized: Swift in xCode
 
 <img src="/assets/img/nba.jpg">
 
@@ -42,11 +41,15 @@ Dividing Singapore into 55 planning areas or 332 subzones, I created an interact
 
 <img src="/assets/img/sg-restaurant.jpg"> 
 
+Tools utilized: Python via Juypter Notebooks
+
 <hr>
 
 ### [Predicting Success of Android Mobile Apps](https://domteo95.github.io/android-apps-success/) (2018)
 
 Attempting to establish what factors are important for app success on the Google Play Store so that we're able to predict if an Android mobile app will be successful. Applied 3 different classification modeling approaches - Logistic Regression, Decision Trees/Pruned Decision Trees and Random Forest models. Found that the random forest model was most successful and that the variables - Price, Rating, DaysSinceLastUpdated and Size are most important in prediction success. 
+
+Tools utilized: R
 
 <img src="/assets/img/android-app.jpg"> 
 
