@@ -17,11 +17,9 @@ The more detailed report on the entire project can be found in the [pdf document
 
 ## Introduction
 
-The global app economy is estimated to be worth 6.3 trillion USD by 2021, up from 1.3 trillion USD in 2018 (AppAnnie,2019). Over this period the user base will almost double from 3.4 billion people using apps to around 6.3 billion (AppAnnie, 2019).
+The global app economy is estimated to be worth 6.3 trillion USD by 2021, up from 1.3 trillion USD in 2018 (AppAnnie,2019). Over this period the user base will almost double from 3.4 billion people using apps to around 6.3 billion (AppAnnie, 2019). However, the majority of developers are still struggling to break even (AppSurvey, 2013). For those unsuccessful app developers, a clear analysis of the characteristics of existing successful apps would provide a useful insight into creating apps that users want (Tian,2015). 
 
-This rapid market growth has produced no shortage of stories of individual app developers making great fortunes from their apps. However, the majority of developers are still struggling to break even (AppSurvey, 2013). For those unsuccessful app developers, a clear analysis of the characteristics of existing successful apps would provide a useful insight into creating apps that users want (Tian,2015). 
-
-Therefore, the main goal of this project is to identify the characteristics that successful apps share and investigate which of these factors is important for success. This study is relevant for both developers and consumers, since both parties will benefit from a greater alignment of demand and supply in the app market; consumers will have a greater choice of apps they enjoy and developers will reap the financial gains of their work.
+Therefore, the main goal of this project is to identify the characteristics that successful apps share and investigate which of these factors is important for success. 
 
 ## Dataset Variables
 
