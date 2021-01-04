@@ -1,6 +1,6 @@
 ---
 theme: jekyll-theme-minimal
-layout: post
+layout: default
 project: true
 title: "Big Data Project - Summarized stats for players in FIFA game "
 permalink: /fifa-big-data/
