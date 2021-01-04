@@ -4,6 +4,8 @@ layout: default
 # CV
 
 The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
+<br>
+<hr>
 
 # Project List<br>
 
