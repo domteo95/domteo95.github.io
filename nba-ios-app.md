@@ -31,7 +31,7 @@ This app is made for casual NBA fans as well as a complementary app to current f
 As can be seen in the storyboard picture below, there's 3 main scenes which are also represented in the 3 tabs found at the bottom of the app - **NBA Players**, **Favorite Players** and **Injured Players**. Each tab should also have their own icon above the title of the tab and clicking on it will allow the user to switch between the different use cases as will be explained.
 
 <p align="center">
-  <img src="/assets/img/nba-ios/storyboard.png" style="width: 60%; height: 60%"/>
+  <img src="/assets/img/nba-ios/storyboard.png" style="width: 75%; height: 75%"/>
 </p>
 
 ### NBA Players
@@ -42,26 +42,26 @@ The following are a list of features that users can enjoy under the 'NBA Players
 * When swiping from right to left, users should be able to see a yellow star appear, when users can click on the yellow star to indicate that they want that specific player to appear on their Favorite Player's List. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/yellow-star.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/yellow-star.png" style="width: 75%; height: 75%"/>
 </p>
 
 * When swiping from left to right, users should be able to see a white cross on a red background appear, when users can click on the cross to indicate that they want that specific player to appear on their Injured Player's List. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/red-cross.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/red-cross.png" style="width: 75%; height: 75%"/>
 </p>
 
 * Clicking on any player's cell should bring you to the detail view which contains their image and statistics - points, rebounds and assists per game. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/detail-view.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/detail-view.png" style="width: 75%; height: 75%"/>
 </p>
 
 
 * Clicking on the top right bar button button should allow users to change the sorting from name to points per game or vice versa. The text on the button should be opposite of what it's currently being sorted by. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/points.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/points.png" style="width: 75%; height: 75%"/>
 </p>
 
 
@@ -72,13 +72,13 @@ Using the search bar function found at the top of the screen in the 'NBA Players
 * There should be a scope right underneath the search bar where users can select one of the following options, "Both", "Player's Name" or "Team's Name". The default option is "Both". The search result will then change according to which option was selected.
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/search-player.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/search-player.png" style="width: 75%; height: 75%""/>
 </p>
 
 *Search by Players' Name*
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/search-team.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/search-team.png" style="width: 75%; height: 75%"/>
 </p>
 
 *Search by Teams' Name*
@@ -87,27 +87,27 @@ Using the search bar function found at the top of the screen in the 'NBA Players
 * If user has swiped from right to left and clicked on the yellow star, that player should appear in the 'Favorite Players' tab with their name and team name. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/favorite-players.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/favorite-players.png" style="width: 75%; height: 75%"/>
 </p>
 
 * Clicking on one of the players in this list should lead you to another detail view, this time with more stats. Includes points, rebounds, assists, steals, blocks, minutes per game and player efficiency rating along with their picture. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/favorite-players-detail.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/favorite-players-detail.png" style="width: 75%; height: 75%"/>
 </p>
 
 * Players in the Favorite Players list should be a Core Data entity, which means that even after reloading the app, the players that appeared on this list should continue to be on this list. 
 * Swiping from right to left should allow users the option to delete that specific player from their Favorite Players list. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/favorite-players-delete.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/favorite-players-delete.png" style="width: 75%; height: 75%"/>
 </p>
 
 ### Injured Players
 * If user has swiped from left to right and clicked on the white cross on red background, that player should appear in the 'Injured Players' tab with their name as well as the date that they were added to this list. 
 
 <p align="center">
-  <img src="https://github.com/domteo95/ios-app-nba-players/blob/main/screenshots/injured-players.png" width = "225" height = "468"/>
+  <img src="/assets/img/nba-ios/injured-players.png" style="width: 75%; height: 75%"/>
 </p>
 
 * Players in this list are also a Core Data entity hence should have same properties as the players in the Favorite Players list. 
