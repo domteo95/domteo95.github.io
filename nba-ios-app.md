@@ -13,7 +13,11 @@ permalink: /nba-ios-app/
 
 More detailed overview and run through of how to use this app and its various features can be found in this YouTube [video](https://www.youtube.com/watch?v=xEQHiAIzgE8). 
 
-The project can be downloaded [here](https://github.com/domteo95/ios-app-nba-players) in the **app** folder.
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<p class="view"><a href="https://github.com/domteo95/ios-app-nba-players"><i class="fa fa-github" style="font-size:24px"></i>  View the Project on GitHub</a></p>
+
+The project can be downloaded in the **app** folder.
 
 
 ## Overview of Project
@@ -25,8 +29,6 @@ This app is made for casual NBA fans as well as a complementary app to current f
 <p align="center">
   <img src="/assets/img/nba-ios/overview.gif" width="60%" height="60%" />
 </p>
-
-**Instructions on how to run the app:** download the entire `app` folder and open it in Xcode. Select the device (eg iPhone 11 Pro Max) and run it by clicking the play button and you'll be able to play around with the app on the simulator. 
 
 
 ## Features 
