@@ -13,8 +13,8 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 Click on titles of projects for more details!
 
 <div class="dropdown">
-  <button onclick="myFunction()" class="dropbtn">Dropdown</button>
-  <div id="myDropdown" class="dropdown-content">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
     <a href="#">Big Data FIFA Project</a>
     <a href="#">NBA Players iOS App</a>
     <a href="#">Area with Singapore's Best Restaurants - Visualization</a>
