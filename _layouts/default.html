@@ -19,7 +19,13 @@
 
         <img src="/assets/img/image.png" alt="Profile Pic">
 
-        <p class="view"><a href="{{ site.github.owner_url }}"><i class="fa fa-github" style="font-size:24px"></i>  Github</a></p>
+        {% if site.github.is_project_page %}
+        <p class="view"><a href="{{ site.github.repository_url }}"><i class="fa fa-github" style="font-size:24px"></i>View the Project on GitHub <small>{{ site.github.repository_nwo }}</small></a></p>
+        {% endif %}
+
+        {% if site.github.is_user_page %}
+        <p class="view"><a href="{{ site.github.owner_url }}"><i class="fa fa-github" style="font-size:24px"></i>View My GitHub Profile</a></p>
+        {% endif %}
 
         <p class="view"><a href="https://www.linkedin.com/in/dominic-teo-34380713b/"><i class="fa fa-linkedin" style="font-size:22px"></i>  LinkedIn</a></p>
 
@@ -28,6 +34,11 @@
         <p> I graduated Cum Laude from Sciences Po Paris with a BA in Social Sciences & Economics followed by a MS in Computational Analysis and Public Policy (MSCAPP) at the University of Chicago. The MSCAPP degree is a dual degree offered by the Schools of Public Policy and Computer Science. </p>
 
         <p>{{ site.description | default: site.github.project_tagline }}</p>
+
+        {% if site.github.is_project_page %}
+        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
+        {% endif %}
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
 
 
         {% if site.show_downloads %}
@@ -45,10 +56,7 @@
 
       </section>
       <footer style="position: relative;">
-        {% if site.github.is_project_page %}
-        <p>This project is maintained by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a></p>
-        {% endif %}
-        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+        
       </footer>
     </div>
 
