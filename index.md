@@ -10,6 +10,16 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 
 # Project List
 Click on titles of projects for more details!
+
+<div class="dropdown">
+  <button class="dropbtn">Dropdown</button>
+  <div class="dropdown-content">
+    <a href="#">Link 1</a>
+    <a href="#">Link 2</a>
+    <a href="#">Link 3</a>
+  </div>
+</div>
+
 <hr>
 
 ### [Big Data Architecture - FIFA 07 to 21](https://domteo95.github.io/fifa-big-data/) (2020)
