@@ -14,7 +14,7 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 - Big Data FIFA application
 - NBA Players iOS App
 - Singapore Area with Best Restaurants - Visualization
-<br>
+<br><br>
 Click on titles of projects for more details!
 
 <hr>
@@ -42,4 +42,7 @@ Dividing Singapore into 55 planning areas or 332 subzones, I created an interact
 <img src="/assets/img/sg-restaurant.jpg"> 
 
 <hr>
+
+### [Predicting Success of Android Mobile Apps](https://domteo95.github.io/android-apps-success/) (2018)
+
 
