@@ -2,12 +2,14 @@
 layout: default
 ---
 # CV
+<hr>
 
 The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 <br>
 <hr>
 
 # Project List<br>
+<hr>
 
 ### [NBA Players iOS App](https://domteo95.github.io/nba-ios-app/)
 
