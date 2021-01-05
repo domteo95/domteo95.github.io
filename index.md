@@ -71,8 +71,8 @@ Tools utilized: R
 <head></head>
  <body>
     <div style="width: 100%;">
-        <div style="width: 30%;"> 
-            [Johnny Quach](https://www.linkedin.com/in/size12font/)
+        <div style="width: 30%; float: left;"> 
+            <a href="https://www.linkedin.com/in/size12font/">Johnny Quach </a>
             <br> April 24, 2020, Johnny managed DOMINIC directly as the Chief Product Officer for AirHelp 
             <br> *Recommendation from LinkedIn*
         </div>
