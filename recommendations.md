@@ -14,19 +14,6 @@ permalink: /recommendations/
 
 ### Recommendations from:
 
-<div class="row">
-  <div class="column" style="float: left; width: 33.33%; height: 120px; padding: 5px;">
-    <img src="/assets/img/recommendations/ah.jpg" alt="AirHelp" style="width:100%">
-  </div>
-  <div class="column" style="float: left; margin-left: 34%; height: 120px; padding: 5px;">
-    <img src="/assets/img/recommendations/aora.jpg" alt="Aora" style="width:100%">
-  </div>
-  <div class="column" style="float: left; margin-left: 67%; height: 120px; padding: 5px;">
-    <img src="/assets/img/recommendations/eco-city.jpg" alt="Mountains" style="width:100%">
-  </div>
-</div>
-<br><br>
-
 
 <html>
 <head></head>
