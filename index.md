@@ -67,8 +67,6 @@ Tools utilized: R
 
 # Recommendations (from LinkedIn)
 
-</div>
-<div tabindex="0" id="ember1017" class="artdeco-tabpanel active ember-view" role="tabpanel" aria-labelledby="ember1015"><!---->
 <div id="ember1018" class="ember-view">          <div id="ember1019" class="ember-view"><ul class="section-info" tabindex="-1">
     <li id="ember1021" class="pv-recommendation-entity ember-view"><div class="pv-recommendation-entity__header">
 <a data-control-name="recommendation_details_profile" href="https://www.linkedin.com/in/size12font/" id="ember1022" class="pv-recommendation-entity__member ember-view">    <img width="56" src="https://media-exp1.licdn.com/dms/image/C4D35AQG7w9SausMo8Q/profile-framedphoto-shrink_100_100/0/1609773056562?e=1609920000&amp;v=beta&amp;t=_Zkm8j0SEFDBQvd9IePVMbNPswHeGdQ46rFfsaWSyFo" loading="lazy" height="56" alt="Johnny Quach 🏓" id="ember1023" class="EntityPhoto-circle-4 fl lazy-image ember-view">
@@ -85,7 +83,5 @@ Tools utilized: R
 <div class="pv-recommendation-entity__highlights">
   <blockquote class="pv-recommendation-entity__text relative">
     <div id="ember1024" class="ember-view">  <span class="lt-line-clamp__raw-line">I hired Dominic to help build a case for mobile apps in the travel space. I first saw Dominic's work on Seeking Alpha. I felt his paper on Spotify was well written, well researched, and logical in every way. My head of product and myself were very impressed. We enjoyed the paper so much we had to reach out. I was completely surprised that Dominic, at such an early stage in his career, had so much talent. We really enjoyed our working relationship and really loved the work he produced for us. I'm already looking forward to the next opportunity to hire Dominic.</span>
-
-  </blockquote>
 
 
