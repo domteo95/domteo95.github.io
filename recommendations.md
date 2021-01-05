@@ -5,7 +5,7 @@ title: "Recommendations "
 permalink: /recommendations/
 ---
 
-<link rel="icon" type="image/x-icon" href="domteo95.github.io/favicon.ico">
+<link rel="icon" type="image/x-icon" href="domteo95.github.io/favicon.ico?">
 
 # Recommendations 
 
