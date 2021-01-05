@@ -15,8 +15,8 @@ permalink: /recommendations/
  <body>
     <div style="width: 100%;">
         <div style="width: 34%; float: left;"> 
-            <a href="https://www.linkedin.com/in/size12font/">Johnny Quach</a> (2019)
-            <br><img src="/assets/img/recommendations/ah.jpg" alt="AirHelp" style="width:100%">   
+            <a href="https://www.linkedin.com/in/size12font/" style="text-align: center;">Johnny Quach</a> (2019)
+            <img src="/assets/img/recommendations/ah.jpg" alt="AirHelp" style="width:100%">   
         </div>
         <div style="margin-left: 35%;"> 
             <blockquote> I hired Dominic to help build a case for mobile apps in the travel space. I first saw Dominic's work on Seeking Alpha. I felt his paper on Spotify was well written, well researched, and logical in every way. My head of product and myself were very impressed. We enjoyed the paper so much we had to reach out. I was completely surprised that Dominic, at such an early stage in his career, had so much talent. We really enjoyed our working relationship and really loved the work he produced for us. I'm already looking forward to the next opportunity to hire Dominic.</blockquote>
