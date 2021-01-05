@@ -5,12 +5,10 @@ title: "Recommendations "
 permalink: /recommendations/
 ---
 
-<link rel="icon" type="image/x-icon" href="favicon.ico?">
-
 # Recommendations 
 
 <html>
-<head><link rel="icon" type="image/x-icon" href="favicon.ico?"></head>
+<head></head>
  <body>
     <div style="width: 100%;">
         <div style="width: 34%; float: left;"> 
