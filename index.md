@@ -67,12 +67,13 @@ Tools utilized: R
 
 # Recommendations 
 
-- **(Johnny Quach)**[https://www.linkedin.com/in/size12font/]
+**[Johnny Quach]**(https://www.linkedin.com/in/size12font/)
 <br> April 24, 2020, Johnny managed DOMINIC directly as the Chief Product Officer for AirHelp 
-<br> *recommendation from LinkedIn*
+<br> *Recommendation from LinkedIn*
 <div class="pv-recommendation-entity__highlights">
   <blockquote class="pv-recommendation-entity__text relative">
     <div id="ember1024" class="ember-view">  <span class="lt-line-clamp__raw-line">I hired Dominic to help build a case for mobile apps in the travel space. I first saw Dominic's work on Seeking Alpha. I felt his paper on Spotify was well written, well researched, and logical in every way. My head of product and myself were very impressed. We enjoyed the paper so much we had to reach out. I was completely surprised that Dominic, at such an early stage in his career, had so much talent. We really enjoyed our working relationship and really loved the work he produced for us. I'm already looking forward to the next opportunity to hire Dominic.</span>
+
 
 
 
