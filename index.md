@@ -39,9 +39,17 @@ Tools utilized: Swift in xCode
 
 Dividing Singapore into 55 planning areas or 332 subzones, I created an interactive visualization using the Bokeh library in Python where users can explore which areas have the best and most popular restaurants in Singapore. Restaurant data came from a TripAdvisor crawler that I wrote as well as Yelp data kindly provided by Sean Koh. 
 
+Tools utilized: Python via Juypter Notebooks
+
 <img src="/assets/img/sg-restaurant.jpg"> 
 
-Tools utilized: Python via Juypter Notebooks
+<hr>
+
+### [Machine Learning - Predicting Occurence of Violent Crime in Chicago](https://domteo95.github.io/ml-crime/) (2019)
+
+Using socio-economic, weather and reported crimes data, we attempt to assess the possibility of using a ML classification model to accurately predict if a violent crime would occur in a specific neighborhood in Chicago. This seems particularly important given recently controversies around police brutality and calls to 'defund' the police which makes more efficient allocation of limited police resources more important. We will be identifying the 'best' combination of hyper-parameters in 4 different models: decision tree; random forest; logistic regression & ada-boost that produces the most accurate predictions. 
+
+Tools utilized: Python via Juypter Notebooks and in particular the sklearn package.
 
 <hr>
 
