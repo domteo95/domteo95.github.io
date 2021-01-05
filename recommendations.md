@@ -63,12 +63,13 @@ permalink: /recommendations/
 
 <html>
 <head>
-  <title>Recommendations from:</title>
-  <style>
-    div.imgContainer{
-      display: inline-block;
-    }
-  </style>
+    <meta charset=utf-8 />
+    <title>Recommendations from:</title>
+    <style>
+        div.imgContainer{
+            display: inline-block;
+        }
+    </style>
 </head>
 <body>
     <div class="imgContainer">
