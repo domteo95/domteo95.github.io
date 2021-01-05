@@ -65,7 +65,7 @@ permalink: /recommendations/
 <head>
   <title>Recommendations from:</title>
   <style>
-    .imgContainer{
+    div.imgContainer{
       float:left;
     }
   </style>
