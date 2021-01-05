@@ -63,24 +63,24 @@ permalink: /recommendations/
 
 <html>
 <head>
-  <meta charset=utf-8 />
-  <title></title>
+  <title>Recommendations from:</title>
   <style>
-    div.container {
-      display:inline-block;
+    .imgContainer{
+      float:left;
     }
   </style>
 </head>
 <body>
-  <div class="container">
-    <img src="/assets/img/recommendations/ah.jpg" />
-  </div>
-  <div class="container">
-    <img src="/assets/img/recommendations/aora.jpg" />
-  </div>
-  <div class="container">
-    <img src="/assets/img/recommendations/eco-city.jpg"/>
-  </div>
+    <div class="image123">
+    <div class="imgContainer">
+        <img src="/assets/img/recommendations/ah.jpg" height="200" width="200"/>
+    </div>
+    <div class="imgContainer">
+        <img class="middle-img" src="/assets/img/recommendations/aora.jpg"/ height="200" width="200"/>
+    </div>
+    <div class="imgContainer">
+         <img src="/assets/img/recommendations/aora.jpg"/ height="200" width="200"/>
+    </div>
 </div>
 </body>
 </html>
