@@ -7,8 +7,6 @@ permalink: /recommendations/
 
 # Recommendations 
 
-### Recommendations from:
-
 <html>
 <head></head>
  <body>
@@ -61,16 +59,27 @@ permalink: /recommendations/
  </body>
 </html>    	
 
-
-<div class="row">
-  <div class="column" style="float: left; width: 33.33%; height: 120px; padding: 5px;">
-    <img src="/assets/img/recommendations/ah.jpg" alt="AirHelp" style="width:100%">
+<html>
+<head>
+  <meta charset=utf-8 />
+  <title></title>
+  <style>
+    div.container {
+      display:inline-block;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="/assets/img/recommendations/ah.jpg" />
   </div>
-  <div class="column" style="margin-left: 34%; height: 120px; padding: 5px;">
-    <img src="/assets/img/recommendations/aora.jpg" alt="Aora" style="width:100%">
+  <div class="container">
+    <img src="/assets/img/recommendations/aora.jpg" />
   </div>
-  <div class="column" style="margin-left: 67%; height: 120px; padding: 5px;">
-    <img src="/assets/img/recommendations/eco-city.jpg" alt="Mountains" style="width:100%">
+  <div class="container">
+    <img src="/assets/img/recommendations/eco-city.jpg"/>
   </div>
 </div>
-<br><br>
+</body>
+</html>
+
