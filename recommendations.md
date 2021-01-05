@@ -59,29 +59,5 @@ permalink: /recommendations/
         </div>
     </div>
  </body>
-</html>    	
-
-<html>
-<head>
-    <meta charset=utf-8 />
-    <title>Recommendations from:</title>
-    <style>
-        div.imgContainer{
-            display: inline-block;
-        }
-    </style>
-</head>
-<body>
-    <div class="imgContainer">
-        <img src="/assets/img/recommendations/ah.jpg" height="200" width="200"/>
-    </div>
-    <div class="imgContainer">
-        <img class="middle-img" src="/assets/img/recommendations/aora.jpg"/ height="200" width="200"/>
-    </div>
-    <div class="imgContainer">
-         <img src="/assets/img/recommendations/aora.jpg"/ height="200" width="200"/>
-    </div>
-</div>
-</body>
 </html>
 
