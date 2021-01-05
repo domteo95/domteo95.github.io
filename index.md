@@ -65,4 +65,46 @@ Tools utilized: R
 
 <hr>
 
+<div id="ember1013" class="mt1 artdeco-tabs artdeco-tabs--size-t-40 ember-view"><div aria-multiselectable="false" id="ember1014" class="artdeco-tablist artdeco-tablist--no-wrap ember-view" role="tablist"><button tabindex="0" aria-selected="true" aria-expanded="true" id="ember1015" class="ml0 artdeco-tab active artdeco-tab--selected ember-view" role="tab" aria-controls="ember1017">        Received (1)
+</button><button tabindex="-1" aria-selected="false" aria-expanded="false" id="ember1016" class="artdeco-tab ember-view" role="tab" aria-controls="ember1025">        Given (0)
+</button>
+</div>
+<div tabindex="0" id="ember1017" class="artdeco-tabpanel active ember-view" role="tabpanel" aria-labelledby="ember1015"><!---->
+<div id="ember1018" class="ember-view">          <div id="ember1019" class="ember-view"><ul class="section-info" tabindex="-1">
+    <li id="ember1021" class="pv-recommendation-entity ember-view"><div class="pv-recommendation-entity__header">
+<a data-control-name="recommendation_details_profile" href="/in/size12font/" id="ember1022" class="pv-recommendation-entity__member ember-view">    <img width="56" src="https://media-exp1.licdn.com/dms/image/C4D35AQG7w9SausMo8Q/profile-framedphoto-shrink_100_100/0/1609773056562?e=1609920000&amp;v=beta&amp;t=_Zkm8j0SEFDBQvd9IePVMbNPswHeGdQ46rFfsaWSyFo" loading="lazy" height="56" alt="Johnny Quach 🏓" id="ember1023" class="EntityPhoto-circle-4 fl lazy-image ember-view">
+
+
+    <div class="pv-recommendation-entity__detail">
+      <h3 class="t-16 t-black t-bold">Johnny Quach 🏓</h3>
+      <p class="pv-recommendation-entity__headline t-14 t-black t-normal pb1">Let me know how I can help.</p>
+        <p class="t-12 t-black--light t-normal">
+          April 24, 2020, Johnny managed DOMINIC directly
+        </p>
+    </div>
+</a></div>
+<div class="pv-recommendation-entity__highlights">
+  <blockquote class="pv-recommendation-entity__text relative">
+    <div id="ember1024" class="ember-view">    <span class="lt-line-clamp__line">I hired Dominic to help build a case for mobile apps in the travel</span>
+      <span class="lt-line-clamp__line">space. I first saw Dominic's work on Seeking Alpha. I felt his</span>
+      <span class="lt-line-clamp__line">paper on Spotify was well written, well researched, and logical in</span>
+      <span class="lt-line-clamp__line">every way. My head of product and myself were very impressed.</span>
+      <span class="lt-line-clamp__line lt-line-clamp__line--last">
+      We enjoyed the paper so much we had to reach out. I<span class="lt-line-clamp__ellipsis"><div class="lt-line-clamp__dummy-element">...</div>
+            <a data-test-line-clamp-show-more-button="true" href="#" role="button" id="line-clamp-show-more-button" aria-expanded="false" class="lt-line-clamp__more">See more</a>
+        </span></span>
+
+<!----><span class="lt-line-clamp__ellipsis lt-line-clamp__ellipsis--dummy">... <a class="lt-line-clamp__more" href="#" role="button">See more</a></span></div>
+  </blockquote>
+</div>
+</li>
+</ul>
+<!----></div>
+</div></div>
+<div tabindex="0" id="ember1025" class="artdeco-tabpanel artdeco-tabpanel--hidden ember-view" role="tabpanel" aria-labelledby="ember1016" hidden=""><!---->
+        <p class="description t-16 t-black--light t-normal mt5">
+          You haven’t given any recommendations yet.
+        </p>
+</div></div>
+
 
