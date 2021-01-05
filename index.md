@@ -2,6 +2,9 @@
 layout: default
 title: "Portfolio"
 ---
+
+<link rel="shortcut icon" type="image/x-icon" href="favicon.ico">
+
 # CV & Recommendations
 
 The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
