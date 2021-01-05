@@ -10,7 +10,7 @@ permalink: /recommendations/
 # Recommendations 
 
 <html>
-<head></head>
+<head><link rel="icon" type="image/x-icon" href="favicon.ico?"></head>
  <body>
     <div style="width: 100%;">
         <div style="width: 34%; float: left;"> 
