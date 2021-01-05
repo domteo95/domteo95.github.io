@@ -66,12 +66,11 @@ permalink: /recommendations/
   <title>Recommendations from:</title>
   <style>
     div.imgContainer{
-      float:left;
+      display: inline-block;
     }
   </style>
 </head>
 <body>
-    <div class="image123">
     <div class="imgContainer">
         <img src="/assets/img/recommendations/ah.jpg" height="200" width="200"/>
     </div>
