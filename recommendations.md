@@ -5,6 +5,11 @@ title: "Recommendations "
 permalink: /recommendations/
 ---
 
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+
 # Recommendations 
 
 ### Recommendations from:
@@ -31,6 +36,7 @@ permalink: /recommendations/
             <a href="https://www.linkedin.com/in/size12font/">Johnny Quach </a>
             <br> April 24, 2020, Johnny managed DOMINIC directly as the Chief Product Officer for AirHelp 
             <br><br> <i>Recommendation from LinkedIn</i>
+            <img src="/assets/img/recommendations/ah.jpg" alt="AirHelp" style="width:100%">
         </div>
         <div style="margin-left: 35%;"> 
             <blockquote> I hired Dominic to help build a case for mobile apps in the travel space. I first saw Dominic's work on Seeking Alpha. I felt his paper on Spotify was well written, well researched, and logical in every way. My head of product and myself were very impressed. We enjoyed the paper so much we had to reach out. I was completely surprised that Dominic, at such an early stage in his career, had so much talent. We really enjoyed our working relationship and really loved the work he produced for us. I'm already looking forward to the next opportunity to hire Dominic.</blockquote>
