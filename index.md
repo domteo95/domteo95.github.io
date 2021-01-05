@@ -51,6 +51,8 @@ Using socio-economic, weather and reported crimes data, we attempt to assess the
 
 Tools utilized: Python via Juypter Notebooks and in particular the sklearn package.
 
+<img src="/assets/img/crime.jpg"> 
+
 <hr>
 
 ### [Predicting Success of Android Mobile Apps](https://domteo95.github.io/android-apps-success/) (2018)
