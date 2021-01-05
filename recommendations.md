@@ -7,6 +7,20 @@ permalink: /recommendations/
 
 # Recommendations 
 
+### Recommendations from:
+
+<div class="row">
+  <div class="column">
+    <img src="/assets/img/recommendations/ah.jpg" alt="AirHelp" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/img/recommendations/aora.jpg" alt="Aora" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="/assets/img/recommendations/eco-city.jpg" alt="Mountains" style="width:100%">
+  </div>
+</div>
+
 <html>
 <head></head>
  <body>
@@ -15,8 +29,6 @@ permalink: /recommendations/
             <a href="https://www.linkedin.com/in/size12font/">Johnny Quach </a>
             <br> April 24, 2020, Johnny managed DOMINIC directly as the Chief Product Officer for AirHelp 
             <br><br> <i>Recommendation from LinkedIn</i>
-            <br>
-            <img src="https://github.com/domteo95/domteo95.github.io/blob/master/assets/img/recommendations/ah.jpg">
         </div>
         <div style="margin-left: 35%;"> 
             <blockquote> I hired Dominic to help build a case for mobile apps in the travel space. I first saw Dominic's work on Seeking Alpha. I felt his paper on Spotify was well written, well researched, and logical in every way. My head of product and myself were very impressed. We enjoyed the paper so much we had to reach out. I was completely surprised that Dominic, at such an early stage in his career, had so much talent. We really enjoyed our working relationship and really loved the work he produced for us. I'm already looking forward to the next opportunity to hire Dominic.</blockquote>
