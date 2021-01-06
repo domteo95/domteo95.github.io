@@ -8,6 +8,44 @@ permalink: /recommendations/
 # Recommendations 
 
 <html>
+<head>
+<style> 
+    * {
+        box-sizing: border-box;
+    }
+
+    div.column {
+        float: left;
+        width: 33.33%;
+        padding: 12px;
+    }
+    div.row::after {
+        content: "";
+        clear: both;
+        display: table;
+    }
+</style>
+</head>
+<body>
+    <h3> Recommendations from: </h3>
+    <div class="row">
+        <div class="column">
+            <img src="/assets/img/recommendations/ah.png" alt="airhelp" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/assets/img/recommendations/aora.jpg" alt="aora" style="width:100%">
+        </div>
+        <div class="column">
+            <img src="/assets/img/recommendations/eco-city.jpg" alt="eco-city" style="width:100%">
+        </div>
+</div>
+
+</body>
+</html>
+
+<br>
+
+<html>
 <head></head>
  <body>
     <div style="width: 100%;">
@@ -62,39 +100,4 @@ permalink: /recommendations/
 <br>
 <br>
 
-<html>
-<head>
-<style> 
-    * {
-        box-sizing: border-box;
-    }
-
-    div.column {
-        float: left;
-        width: 33.33%;
-        padding: 12px;
-    }
-    div.row::after {
-        content: "";
-        clear: both;
-        display: table;
-    }
-</style>
-</head>
-<body>
-    <h3> Recommendations from: </h3>
-    <div class="row">
-        <div class="column">
-            <img src="/assets/img/recommendations/ah.png" alt="airhelp" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="/assets/img/recommendations/aora.jpg" alt="aora" style="width:100%">
-        </div>
-        <div class="column">
-            <img src="/assets/img/recommendations/eco-city.jpg" alt="eco-city" style="width:100%">
-        </div>
-</div>
-
-</body>
-</html>
 
