@@ -72,7 +72,7 @@ permalink: /recommendations/
     div.column {
         float: left;
         width: 33.33%;
-        padding: 5px;
+        padding: 12px;
     }
     div.row::after {
         content: "";
