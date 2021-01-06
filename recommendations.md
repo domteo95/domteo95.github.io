@@ -85,7 +85,7 @@ permalink: /recommendations/
     <h3> Recommendations from: </h3>
     <div class="row">
         <div class="column">
-            <img src="/assets/img/recommendations/ah.jpg" alt="airhelp" style="width:100%">
+            <img src="/assets/img/recommendations/ah.png" alt="airhelp" style="width:100%">
         </div>
         <div class="column">
             <img src="/assets/img/recommendations/aora.jpg" alt="aora" style="width:100%">
