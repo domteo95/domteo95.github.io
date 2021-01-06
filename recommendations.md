@@ -18,6 +18,7 @@ permalink: /recommendations/
         float: left;
         width: 33.33%;
         padding: 12px;
+        opacity: 0.7
     }
     div.row::after {
         content: "";
@@ -27,7 +28,6 @@ permalink: /recommendations/
 </style>
 </head>
 <body>
-    <h3> Recommendations from: </h3>
     <div class="row">
         <div class="column">
             <img src="/assets/img/recommendations/ah.png" alt="airhelp" style="width:100%">
