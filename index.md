@@ -3,8 +3,6 @@ layout: default
 title: "Portfolio"
 ---
 
-<link rel="icon" type="image/x-icon" href="/favicon.ico">
-
 # CV & Recommendations
 
 The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
@@ -69,6 +67,18 @@ Tools utilized: R
 <img src="/assets/img/android-app.jpg"> 
 
 <hr>
+
+### [Exploring Racial Inequality in Education for Singapore](https://domteo95.github.io/race-education-trends/) (2018)
+
+Using 2005 and 2010 data, I explore how racial inequalities in educational outcomes is a serious problem. My goal is to demonstrate that Malays, relative to other ethnic groups in Singapore, are badly under-represented in higher (tertiary education) though improvements have been made. I also attempt to show that this is exacerbated by the fact that Malays who make it to University are relatively under-represented in high paying fields such as Engineering and Law.
+
+Tools utilized: Tableau
+
+<img src="/assets/img/education.jpg"> 
+
+<hr>
+
+
 
 
 
