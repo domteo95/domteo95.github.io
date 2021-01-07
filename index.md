@@ -68,6 +68,11 @@ Tools utilized: R
 
 <hr>
 
+### [Divorce Trends in Singapore](https://domteo95.github.io/sg-divorce-trends/) (2018)
+
+
+<hr>
+
 ### [Exploring Racial Inequality in Education for Singapore](https://domteo95.github.io/race-education-trends/) (2018)
 
 Using 2005 and 2010 data, I explore how racial inequalities in educational outcomes is a serious problem. My goal is to demonstrate that Malays, relative to other ethnic groups in Singapore, are badly under-represented in higher (tertiary education) though improvements have been made. I also attempt to show that this is exacerbated by the fact that Malays who make it to University are relatively under-represented in high paying fields such as Engineering and Law.
