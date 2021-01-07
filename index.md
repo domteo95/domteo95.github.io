@@ -70,6 +70,11 @@ Tools utilized: R
 
 ### [Divorce Trends in Singapore](https://domteo95.github.io/sg-divorce-trends/) (2018)
 
+Attempt to examine Divorce and Marriage trends in Singapore with a particular focus to divorce trends which has been undeniably on the rise around the world. Singapore's crude divorce rate remains low relative to other countries in the West such as the US and Russia but even among other Asian countries such as China. However, there are still some interesting trends in Singapore where the number of divorces increasing by 5x from 1980 to 2018 despite the number of annual marriages remaining stable. 
+
+Tools utilized: Tableau
+
+<img src="/assets/img/divorce.jpg"> 
 
 <hr>
 
