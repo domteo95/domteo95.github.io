@@ -1,0 +1,97 @@
+body, html {
+    /*
+  The default html interpertation adds margin and padding to the basic elements
+  So it can be logically helpful to remove them from the beginning!
+  */
+    font-family: 'Open Sans', sans-serif;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: #EAE2D9;
+}
+
+h1, h2, h3, h4, h5 {
+    text-transform: uppercase;
+}
+
+header{
+  font-family: 'Playfair Display', serif;
+  font-size: 40px;
+  text-align: center;
+  background:#8F3931;
+  color: white;
+}
+
+sub-header{
+  font-family: 'Playfair Display', serif;
+  font-size: 32px;
+}
+
+
+header p{
+  margin: 0;
+}
+
+body{
+  margin-left: 50px;
+  margin-right: 50px;
+  min-height: 100vh;
+}
+
+section{
+  display: flex;
+  margin-left: 10px;
+  margin-top: 40px;
+}
+
+pic{
+  flex:0 0 100px;
+  margin-right: 30px;
+}
+img{
+  width: 90px;
+  height: 90px;
+}
+
+main{
+  flex: 3;
+  margin-left: 30px;
+  margin-top: -20px;
+}
+
+side{
+  flex:0.4;
+  margin-left: 20px;
+}
+
+.main-txt {
+  margin-bottom: 0;
+  font-size:20px;
+}
+
+.sub-txt{
+  margin-top: 0;
+  font-style: italic;
+}
+
+.date-txt{
+  margin-bottom:0;
+}
+
+ul{
+  margin-top:-10px;
+}
+
+footer{
+  height: 40px;
+  background:#8F3931;
+  color: white;
+  text-align: center;
+  margin-top:40px;
+}
+
+footer p{
+  margin:auto;
+}
+
+
