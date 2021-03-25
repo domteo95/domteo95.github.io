@@ -6,7 +6,7 @@ permalink: /web-dev-final-proj/
 ---
 
 
-# Final Project: Belay (a Slack clone) - Final Project for Graduate Class MPCS 52553 (Web Development)
+# Belay (a Slack clone): Final Project for Graduate Class MPCS 52553 - Web Development
 
 **By: Dominic TEO**
 
@@ -24,21 +24,21 @@ permalink: /web-dev-final-proj/
 
 - **Sign Up, Login and Logout:**
 
-<img src="https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/login_signup.gif" />
+<img src="https://github.com/domteo95/web-dev-final/blob/main/images/login_signup.gif?raw=true" />
 
 - **Creating a Channel, Posting text & image in a Channel, Posting in a Thread:**
 
-<img src="https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/channel_and_thread.gif" />
+<img src="https://github.com/domteo95/web-dev-final/blob/main/images/channel_and_thread.gif?raw=true" />
 
 - **Inserting a new message through SQL and getting the new message & unread message updates:**
 
-<img src ='https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/new_message_update.gif'>
+<img src ='https://github.com/domteo95/web-dev-final/blob/main/images/new_message_update.gif?raw=true'>
 
 - **Mobile layout - 1 col with buttons to navigate:**
 
-<img src='https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/mobile_layout.gif'/>
+<img src='https://github.com/domteo95/web-dev-final/blob/main/images/mobile_layout.gif?raw=true'/>
 
 
 - **Accessing different react components through URL**
 
-<img src='https://mit.cs.uchicago.edu/mpcs52553-win-21/dominicteo/raw/master/final_project/images/access_url.gif' />
+<img src='https://github.com/domteo95/web-dev-final/blob/main/images/access_url.gif?raw=true' />

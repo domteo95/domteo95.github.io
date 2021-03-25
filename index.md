@@ -17,12 +17,13 @@ A list of recommendations provided for me can be found [here](https://domteo95.g
 Click on titles of projects for more details!
 
 <hr>
-### [Belay (Slack Clone) - Web Development](https://domteo95.github.io/) (2021)
+### [Belay (Slack Clone) - Web Development](https://domteo95.github.io/web-dev-final-proj/) (2021)
 
 Created a website (Belay) that acts as a Slack clone with several of Slack's key features. Website was built on React and all user information, channels, messages and threads were stored in a MySQL database which was accessed via Flask APIs. Users could sign up with their email and join channels to chat with others along with other features.
 
 Tools utilized: React JS, JavaScript (JSX), Python (Flask) and MySQL.
 
+<img src="/assets/img/slack.jpeg">
 
 <hr>
 ### [Big Data Architecture - FIFA 07 to 21](https://domteo95.github.io/fifa-big-data/) (2020)
