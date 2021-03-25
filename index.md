@@ -26,6 +26,17 @@ Tools utilized: React JS, JavaScript (JSX), Python (Flask) and MySQL.
 <img src="/assets/img/slack.jpeg">
 
 <hr>
+
+### [Gender Inequality - Data Vizualization](https://domteo95.github.io/gender-wage-gap/) (2021)
+
+Produced 2 interactive data visualizations exploring gender inequality, in particular, the gender wage gap that persists in the US. The first allows users to compare the US's performance to other OECD countries while the second visualization allows readers to explore gender wage gap across and within different industries in the US.
+
+Tools utilized: Python (Altair), JavaScript (D3) and HTML
+
+<img src="/assets/img/wage.jpeg">
+
+<hr>
+
 ### [Big Data Architecture - FIFA 07 to 21](https://domteo95.github.io/fifa-big-data/) (2020)
 
 Deployed a serving and speed layer (based on Lambda Architecture) via AWS load balanced servers that allows users to search for their favorite Football (Soccer in the US) team. Will return the team's aggregated stats in different editions of the FIFA game. This allows fans to assess if their favorite or most hated teams have improved or deproved over the years and in which categories the team has changed.
