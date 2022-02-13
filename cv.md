@@ -6,6 +6,7 @@ permalink: /cv/
 ---
 
 # CV
-Last Updated: **Jan 3rd 2021**
+
+Last Updated: **Feb 13th 2022**
 
 <embed src="/assets/img/cv.pdf" height="880" width="660">
