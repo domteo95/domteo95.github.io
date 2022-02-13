@@ -10,6 +10,7 @@ The latest copy of my CV can be found [here](https://domteo95.github.io/cv/)
 A list of recommendations provided for me can be found [here](https://domteo95.github.io/recommendations/)
 
 <img src="/assets/img/work.jpg"><br>
+
 <hr>
 
 # Project List
@@ -17,6 +18,15 @@ A list of recommendations provided for me can be found [here](https://domteo95.g
 Click on titles of projects for more details!
 
 <hr>
+
+### Netflix Top 10 (2022)
+
+Created a website as an avid Netflix fan that's often looking for the next thing to watch. This improves on the [Netflix Top 10](https://top10.netflix.com/united-states) website. Users can choose which country they want to search for and it'll be produce a side by side list of the Top 10 Movies and Top 10 TV Shows in that country. Instead of just the film/show title that's provided in the original Netflix Top 10 website, this website also produces the plot summary, IMDB rating and trailer. I hope to provide fellow avid Netflix fans with more information to help them choose what to watch next!
+
+<img src="/assets/img/netflix.jpg">
+
+<hr>
+
 ### [Belay (Slack Clone) - Web Development](https://domteo95.github.io/web-dev-final-proj/) (2021)
 
 Created a website (Belay) that acts as a Slack clone with several of Slack's key features. Website was built on React and all user information, channels, messages and threads were stored in a MySQL database which was accessed via Flask APIs. Users could sign up with their email and join channels to chat with others along with other features.
