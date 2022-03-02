@@ -9,9 +9,34 @@
   padding: 5px;
 }
 
+.wrapper {
+    width: 70%;
+    margin: 0 auto;
+}
+
+header {
+    width: 30%;
+    float: left;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+header {
+    display: block;
+}
+
 /* Clear floats after image containers */
 .row::after {
   content: "";
   clear: both;
   display: table;
+}
+
+section {
+    width: 60%;
+    float: right;
+    padding-bottom: 50px;
+}
+
+section {
+    display: block;
 }
