@@ -41,7 +41,7 @@ Users can either select the country in the drop-down list or access the results 
 
 The OMDb API and YouTube trailer will then be shown. 
 
-<img src="/assets/img/netflix-top-10.jpg">
+<img src="/assets/img/netflix-top-10.gif">
 
 ## Web Scraping the Netflix Top 10 data from Netflix's website
 
@@ -49,7 +49,7 @@ The OMDb API and YouTube trailer will then be shown.
 
 ## Utilising OMDb API to get film/show's info and web scraping the YouTube trailer
 
-- Loop through the web scrapped list of top 10 films and tv shows as input for a Flask API that utilises the OMDb API to return the show/film's IMDB rating (out of 10) and a short description of the film. 
+- Loop through the web scrapped list of top 10 films and tv shows as input for a Flask API that utilises the OMDb API to return the show/film's IMDB rating (out of 10) and a short description of the film. <br>
 - There will be cases where the film/show title does not match the OMDb API database and will hence return no results. I've tried to mitigate this through the following steps:
 1. Oftentimes the title scrapped is too long (for titles with ":" e.g. 13 Hours: The Secret Soldiers of Benghazi) and the title in the OMDb database is its simplified version (e.g. 13 Hours) hence I will try to split the scrapped title on ":" and will use the first part of the title as input for the OMDb API again. 
 2. For TV shows, just search using the title without the season number. 
