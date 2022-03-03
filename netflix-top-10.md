@@ -10,7 +10,6 @@ permalink: /netflix-top-10/
 
 Built using: Python - Flask and BeautifulSoup, Javascript and HTML
 
-**By: Dominic TEO**
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
@@ -55,7 +54,9 @@ The OMDb API and YouTube trailer will then be shown.
 2. For TV shows, just search using the title without the season number. 
 - Then the Flask API will use the film title to web scrape the URL for the film trailer on YouTube which will then embedd it. 
 
-<i> Note: on Javascript, accessing the Flask API that loops through the web scrapped list meant that it will return the results not in the Top 10 order but in the order in which the results are returned. Hence it's necessary to use the async function</i> 
+- Note: on Javascript, accessing the Flask API that loops through the web scrapped list means that it will return the results not in the Top 10 order but in the order in which the results are returned. Hence it's necessary to use the async function
+
+- After storing the returned info in a dictionary, I will then loop through the dictionary to populate the page. This is still within the  async function. This is done for films and then tv shows.
 
 ```
 async function asyncPromFilms(){
@@ -63,19 +64,14 @@ async function asyncPromFilms(){
         fetch("/api/film_details?title="+result)
         .then(response => response.json())
         .then(function(data){
+          //console.log(result, data['imdb'], data['plot'], data['trailer_url']);
           movies[result]['trailer_url'] = data['trailer_url'] 
           if (!("error" in data)){
             movies[result]['plot'] = data['plot']
             movies[result]['imdb'] = data['imdb']}
          
         })));
-
-```
-
-- After storing the returned info in a dictionary (movies), I will then loop through the dictionary to populate the page. This is still within the above async function (asyncPromFilms)
-
-```
-for (const [key, value] of Object.entries(movies)) {
+        for (const [key, value] of Object.entries(movies)) {
           var output = document.createElement("div");
           output.setAttribute('id', 'result-div');
           var a = document.createElement("P");
@@ -108,5 +104,7 @@ for (const [key, value] of Object.entries(movies)) {
           
           films.append(output);
          }
+    }
+
 ```
 
