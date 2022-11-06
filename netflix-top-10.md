@@ -13,7 +13,7 @@ Built using: Python - Flask and BeautifulSoup, Javascript and HTML
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<p class="view"><a href="https://github.com/domteo95/ios-app-nba-players"><i class="fa fa-github" style="font-size:24px"></i>  View the Project on GitHub</a></p>
+<p class="view"><a href="https://github.com/domteo95/netflix-top-10"><i class="fa fa-github" style="font-size:24px"></i>  View the Project on GitHub</a></p>
 
 **Background**
 
