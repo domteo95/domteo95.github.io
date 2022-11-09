@@ -9,7 +9,7 @@
 
 function getDetails(){
   const country = document.getElementById("country").value;
-  fetch("https://domteo95.pythonanywhere.com/api/scrape", {
+  fetch("https://netflix-top-10.onrender.com//api/scrape", {
     method: 'POST',
     headers: {'Content-Type': 'application/json'},
     body: JSON.stringify({country: country})
@@ -55,7 +55,7 @@ function getDetails(){
 
     async function asyncPromFilms(){
       await Promise.all(results.map(result =>
-        fetch("https://domteo95.pythonanywhere.com/api/film_details?title="+result)
+        fetch("https://netflix-top-10.onrender.com/api/film_details?title="+result)
         .then(response => response.json())
         .then(function(data){
           //console.log(result, data['imdb'], data['plot'], data['trailer_url']);
