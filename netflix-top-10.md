@@ -7,7 +7,7 @@ permalink: /netflix-top-10/
 
 # Netflix Top 10 - Choosing What To Watch Next (2022)
 
-Built using: Python - Flask and BeautifulSoup, Javascript and HTML
+Built using: Python - Flask and BeautifulSoup, Javascript, HTML and hosted on <a href="https://netflix-top-10.onrender.com/"> Render </a>
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
