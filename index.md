@@ -19,7 +19,7 @@ Click on titles of projects for more details!
 
 <hr>
 
-### [Netflix Top 10](https://domteo95.github.io/netflix-top-10/) (2022)
+### [Netflix Top 10](https://netflix-top-10.onrender.com/) (2022)
 
 Created a website as an avid Netflix fan that's often looking for the next thing to watch. This improves on the [Netflix Top 10](https://top10.netflix.com/united-states) website. Users can choose which country they want to search for and it'll be produce a side by side list of the Top 10 Movies and Top 10 TV Shows in that country. Instead of just the film/show title that's provided in the original Netflix Top 10 website, this website also produces the plot summary, IMDB rating and trailer. I hope to provide fellow avid Netflix fans with more information to help them choose what to watch next!
 
@@ -63,7 +63,7 @@ Tools utilized: **AWS S3, EMR, Spark, Hbase, Hive, Hadoop, Kafka Message Queue, 
 
 Created an iOS app that allows users to search for NBA players and return key statistics of selected players. Users are also able to save players into their 'Favorite Players' list or move players into an 'Injured Players' list. The app is meant for fans of the NBA who are curious about certain NBA players or for fantasy basketball players who need to be kept up to date on the stats of different NBA players.
 
-Tools utilized:  **Swift in xCode**
+Tools utilized: **Swift in xCode**
 
 <img src="/assets/img/nba.jpg">
 
