@@ -57,54 +57,59 @@ The OMDb API and YouTube trailer will then be shown.
 
 - Note: on Javascript, accessing the Flask API that loops through the web scrapped list means that it will return the results not in the Top 10 order but in the order in which the results are returned. Hence it's necessary to use the async function
 
-- After storing the returned info in a dictionary, I will then loop through the dictionary to populate the page. This is still within the async function. This is done for films and then tv shows.
+- I will then use returned info to populate the page. This is still within the async function. This is done for films and then tv shows.
 
 ```
-async function asyncPromFilms(){
-      await Promise.all(results.map(result =>
-        fetch("/api/film_details?title="+result)
-        .then(response => response.json())
-        .then(function(data){
-          //console.log(result, data['imdb'], data['plot'], data['trailer_url']);
-          movies[result]['trailer_url'] = data['trailer_url']
-          if (!("error" in data)){
-            movies[result]['plot'] = data['plot']
-            movies[result]['imdb'] = data['imdb']}
+var number = 0
+var movies = {}
 
-        })));
-        for (const [key, value] of Object.entries(movies)) {
-          var output = document.createElement("div");
-          output.setAttribute('id', 'result-div');
-          var a = document.createElement("P");
-          a.innerHTML = value['plot'];
-          a.setAttribute('id', 'plot')
-          var p = document.createElement("P");
-          p.setAttribute('id', 'title')
-          p.innerHTML = value['rank'] + ". " + key;
-          output.appendChild(p);
-          const imdb = value['imdb']
-          var yellow = parseInt(imdb)
-          var white = 10 - yellow;
+async function getFilmDetails(){
+ await results.forEach(function(element){
 
-          for ( ; yellow >= 1; yellow--){
-              var star = document.createElement("i");
-              star.className = "fa fa-star text-yellow";
-              star.setAttribute('id', 'yellow-star');
-              output.appendChild(star);}
-          for ( ; white >= 1; white--){
-            var star = document.createElement("i");
-            star.className = "fa fa-star-o text-yellow";
-            star.setAttribute('id', 'white-star');
-            output.appendChild(star);
-          }
-          output.appendChild(a);
-          var trailer = document.createElement("iframe");
-          trailer.src = value['trailer_url'];
-          trailer.setAttribute('id', 'trailer')
-          output.appendChild(trailer);
+ number+=1
+ movies[element]={
+   "rank":number}
+ fetch("/api/film_details?title="+element)
+   .then(response => response.json())
+   .then(function(data){
+     if (!("error" in data)){
+       var film_rank =  movies[element]['rank'].toString()
+       output = document.getElementById(`result-film-${film_rank}-div`)
+       var a = document.createElement("P");
+       a.innerHTML = data['plot'];
+       a.setAttribute('id', 'plot')
+       var p = document.createElement("P");
+       p.setAttribute('id', 'title')
+       p.innerHTML = film_rank + ". " + element;
+       output.appendChild(p);
+       const imdb = data['imdb']
+       var yellow = parseInt(imdb)
+       var white = 10 - yellow;
 
-          films.append(output);
-         }
-    }
+       for ( ; yellow >= 1; yellow--){
+           var star = document.createElement("i");
+           star.className = "fa fa-star text-yellow";
+           star.setAttribute('id', 'yellow-star');
+           output.appendChild(star);}
+       for ( ; white >= 1; white--){
+         var star = document.createElement("i");
+         star.className = "fa fa-star-o text-yellow";
+         star.setAttribute('id', 'white-star');
+         output.appendChild(star);
+       }
+       output.appendChild(a);
+       var trailer = document.createElement("iframe");
+       trailer.src = data['trailer_url'];
+       trailer.setAttribute('id', 'trailer')
+       output.appendChild(trailer);
+
+       //films.append(output);
+             //movies[element]['rank']=number
+             //console.log('MOVIES', movies)
+           }
+   })
+ })   
+ }
+getFilmDetails();
 
 ```
