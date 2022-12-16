@@ -7,6 +7,6 @@ permalink: /cv/
 
 # CV
 
-Last Updated: **Feb 13th 2022**
+Last Updated: **Dec 16th 2022**
 
-<embed src="/assets/img/cv.pdf" height="880" width="660">
+<embed src="/assets/img/cv-Dominic Teo.pdf" height="880" width="660">
