@@ -26,11 +26,11 @@ Created a Telegram bot (@tswift_lyrics_songs_bot) that provides a random Taylor 
 
 Tools utilized: **Python (Telegram and Spotify APIs)**
 
-<img src="/assets/img/netflix.jpg">
+<img src="/assets/img/ts-tele-bot/ts.jpg">
 
 <hr>
 
-### [Netflix Top 10](https://netflix-top-10.onrender.com/) (2022)
+### [Netflix Top 10](https://domteo95.github.io/netflix-top-10/) (2022)
 
 Created a website as an avid Netflix fan that's often looking for the next thing to watch. This improves on the [Netflix Top 10](https://top10.netflix.com/united-states) website. Users can choose which country they want to search for and it'll be produce a side by side list of the Top 10 Movies and Top 10 TV Shows in that country. Instead of just the film/show title that's provided in the original Netflix Top 10 website, this website also produces the plot summary, IMDB rating and trailer. I hope to provide fellow avid Netflix fans with more information to help them choose what to watch next!
 
