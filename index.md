@@ -19,7 +19,7 @@ Click on titles of projects for more details!
 
 <hr>
 
-### [Taylor Swift Telegram Bot](https://domteo95.github.io/tele-ts-bot/) (2022)
+### [Taylor Swift Telegram Bot](https://domteo95.github.io/tele-ts-bot/) (2023)
 
 Created a Telegram bot (@tswift_lyrics_songs_bot) that provides a random Taylor Swift song recommendation, including a Spotify link to the song(/random) and also a way to select what Taylor Swift eras fans should dress up as (/eras). For /eras, you select the album(s) that you're willing to dress up as through a poll and the bot would select one for you, while providing a sample image of what the outfit's style is like.
 

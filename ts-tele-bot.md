@@ -16,4 +16,4 @@ Tools utilized: Python (Telegram and Spotify APIs)
 <p>Created a Telegram bot (@tswift_lyrics_songs_bot) that provides a random Taylor Swift song recommendation, including a Spotify link to the song(/random) and also a way to select what Taylor Swift eras fans should dress up as (/eras). For /eras, you select the album(s) that you're willing to dress up as through a poll and the bot would select one for you, while providing a sample image of what the outfit's style is like. </p>
 
 
-<video src="/assets/img/ts-tele-bot/taylor_swift_bot.mp4" controls width="60%" height="60%"></video>
+<video src="/assets/img/ts-tele-bot/taylor_swift_bot.mp4" controls width="100%" height="100%"></video>
